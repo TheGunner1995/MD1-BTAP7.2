@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = +prompt('nhap so can tinh giai thua')
+    let N = 1
+    let N1;
+    let giaiThua = 1
+    for (i = 1; i < num; i++) {
+        N1 = N
+        N = N1 + 1
+        console.log(N)
+        giaiThua *= N
+    }
+    document.write(giaiThua)
+</script>
+</body>
+</html>
