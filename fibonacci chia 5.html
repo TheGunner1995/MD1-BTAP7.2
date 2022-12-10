@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let num = +prompt('nhap so')
+  let a1 = 0
+  let a2 =1
+  let a3;
+  for (let i=1; i<num; i++){
+    a3=a1
+    a1=a2
+    a2=a3+a1
+    if (a1 % 5 ==0){
+      document.write(a1, "<br>")
+      break;
+    }else {
+      alert('chưa đến số đầu tiên chia hết cho 5')
+    }
+  }
+
+
+
+</script>
+</body>
+</html>
